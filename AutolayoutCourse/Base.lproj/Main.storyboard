@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AutolayoutCourse" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Harry Potter and the deathly hallows" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Omw-vC-JTV">
+                                <rect key="frame" x="153" y="215" width="261" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="J K Rowling" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bxy-k6-mYt">
+                                <rect key="frame" x="153" y="164" width="88.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NJt-QP-j8G">
+                                <rect key="frame" x="16" y="317" width="122" height="30"/>
+                                <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="GQF-Ng-fTr"/>
+                                </constraints>
+                                <state key="normal" title="Paperback">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Anh-xY-NHF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GOt-aZ-FQD">
+                                <rect key="frame" x="276" y="317" width="122" height="30"/>
+                                <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="yQX-JP-q4M"/>
+                                </constraints>
+                                <state key="normal" title="Kindle">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iVV-BN-xBn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dha-mV-Dmq">
+                                <rect key="frame" x="146" y="317" width="122" height="30"/>
+                                <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="NbF-0n-m3n"/>
+                                </constraints>
+                                <state key="normal" title="Book">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mur-7U-FwM"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="harrypotter" translatesAutoresizingMaskIntoConstraints="NO" id="EKS-Tt-kGp">
+                                <rect key="frame" x="20" y="64" width="103" height="192"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="103" id="trV-7Q-QOC"/>
+                                    <constraint firstAttribute="height" constant="192" id="uJK-Zn-BCZ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dha-mV-Dmq" secondAttribute="trailing" priority="900" constant="16" id="2Wo-pn-Ysn"/>
+                            <constraint firstItem="Bxy-k6-mYt" firstAttribute="leading" secondItem="EKS-Tt-kGp" secondAttribute="trailing" constant="30" id="CNl-n5-6SW"/>
+                            <constraint firstItem="Omw-vC-JTV" firstAttribute="top" secondItem="Bxy-k6-mYt" secondAttribute="bottom" constant="30" id="EUa-Ka-aby"/>
+                            <constraint firstItem="GOt-aZ-FQD" firstAttribute="leading" secondItem="NJt-QP-j8G" secondAttribute="trailing" priority="900" constant="8" symbolic="YES" id="Egp-Tg-hzI"/>
+                            <constraint firstItem="NJt-QP-j8G" firstAttribute="width" secondItem="dha-mV-Dmq" secondAttribute="width" id="Fwe-HL-zXT"/>
+                            <constraint firstItem="dha-mV-Dmq" firstAttribute="centerY" secondItem="NJt-QP-j8G" secondAttribute="centerY" id="P2w-je-uSO"/>
+                            <constraint firstItem="EKS-Tt-kGp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="PYX-Zd-WIn"/>
+                            <constraint firstItem="NJt-QP-j8G" firstAttribute="top" secondItem="EKS-Tt-kGp" secondAttribute="bottom" constant="61" id="QMh-Xc-5Ko"/>
+                            <constraint firstItem="Omw-vC-JTV" firstAttribute="bottom" secondItem="EKS-Tt-kGp" secondAttribute="bottom" id="Ri6-JV-WBR"/>
+                            <constraint firstItem="Omw-vC-JTV" firstAttribute="leading" secondItem="EKS-Tt-kGp" secondAttribute="trailing" constant="30" id="TvC-M2-LTU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NJt-QP-j8G" secondAttribute="trailing" priority="900" constant="16" id="Uk7-zc-vKC"/>
+                            <constraint firstItem="Bxy-k6-mYt" firstAttribute="leading" secondItem="Omw-vC-JTV" secondAttribute="leading" id="Yrw-tE-cxL"/>
+                            <constraint firstItem="GOt-aZ-FQD" firstAttribute="centerY" secondItem="dha-mV-Dmq" secondAttribute="centerY" id="ZVG-YV-zq7"/>
+                            <constraint firstItem="dha-mV-Dmq" firstAttribute="leading" secondItem="NJt-QP-j8G" secondAttribute="trailing" constant="8" symbolic="YES" id="eBY-RH-JiK"/>
+                            <constraint firstItem="GOt-aZ-FQD" firstAttribute="centerY" secondItem="NJt-QP-j8G" secondAttribute="centerY" id="fmy-zk-yon"/>
+                            <constraint firstItem="EKS-Tt-kGp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="jef-RX-iSb"/>
+                            <constraint firstItem="NJt-QP-j8G" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="k7A-n5-BQ1"/>
+                            <constraint firstAttribute="trailing" secondItem="Omw-vC-JTV" secondAttribute="trailing" id="kLh-r2-HLe"/>
+                            <constraint firstItem="GOt-aZ-FQD" firstAttribute="width" secondItem="NJt-QP-j8G" secondAttribute="width" id="lKH-Im-5zG"/>
+                            <constraint firstItem="GOt-aZ-FQD" firstAttribute="leading" secondItem="dha-mV-Dmq" secondAttribute="trailing" constant="8" symbolic="YES" id="lZX-e1-Za3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GOt-aZ-FQD" secondAttribute="trailing" constant="16" id="wU6-4M-kgE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="ibook" destination="dha-mV-Dmq" id="Yz4-we-zk7"/>
+                        <outlet property="kindle" destination="GOt-aZ-FQD" id="XZy-M6-wna"/>
+                        <outlet property="pprback" destination="NJt-QP-j8G" id="NP1-fy-wOL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="116.51785714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="harrypotter" width="820" height="1031"/>
+    </resources>
+</document>

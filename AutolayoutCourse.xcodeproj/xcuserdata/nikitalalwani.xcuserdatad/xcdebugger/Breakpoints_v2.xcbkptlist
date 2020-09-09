@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6B36D16F-4BD6-4F35-A30C-CAACED4B9D11"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "31036334-C3C6-4B03-A767-B374605D375D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AutolayoutCourse/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "buttonTapped(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "31036334-C3C6-4B03-A767-B374605D375D - c6a14291b68278f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AutolayoutCourse.ViewController.buttonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "AutolayoutCourse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikitalalwani/Library/Autosave%20Information/AutolayoutCourse/AutolayoutCourse/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "182">
+               </Location>
+               <Location
+                  uuid = "31036334-C3C6-4B03-A767-B374605D375D - c6a14291b68278f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AutolayoutCourse.ViewController.buttonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "AutolayoutCourse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikitalalwani/Library/Autosave%20Information/AutolayoutCourse/AutolayoutCourse/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "248">
+               </Location>
+               <Location
+                  uuid = "31036334-C3C6-4B03-A767-B374605D375D - c6a14291b68278f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AutolayoutCourse.ViewController.buttonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "AutolayoutCourse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikitalalwani/Library/Autosave%20Information/AutolayoutCourse/AutolayoutCourse/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "474">
+               </Location>
+               <Location
+                  uuid = "31036334-C3C6-4B03-A767-B374605D375D - c6a14291b68278f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AutolayoutCourse.ViewController.buttonTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "AutolayoutCourse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikitalalwani/Library/Autosave%20Information/AutolayoutCourse/AutolayoutCourse/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "602">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
